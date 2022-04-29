@@ -33,6 +33,7 @@ public class HttpRequestHelper {
         Map<String, Object> resultMap = new HashMap<>();
         for (Map.Entry<String, String[]> param : paramMap.entrySet()) {
             resultMap.put(param.getKey(), param.getValue()[0]);
+            System.out.println();
         }
         return resultMap;
     }
