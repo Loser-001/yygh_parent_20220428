@@ -7,7 +7,6 @@
         <module>model</module>
         <module>service</module>
         <module>service_client</module>
-        <module>service_cmn_client</module>
         <module>service_gateway</module>
     </modules>
     <parent>
@@ -127,5 +126,16 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+<!--    项目打包的时候会将java目录中的*.xml文件也进行打包-->
+    <build>
+        <resources>
+            <resource>
+                <directory>src/main/java</directory>
+                 <includes>
+                     <include>**/*.xml</include>
+                 </includes>
+            </resource>
+        </resources>
+    </build>
 
 </project>

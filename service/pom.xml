@@ -13,6 +13,10 @@
     <packaging>pom</packaging>
     <modules>
         <module>service_cmnn</module>
+        <module>service_msm</module>
+        <module>service_order</module>
+        <module>service_task</module>
+        <module>service_statistics</module>
     </modules>
     <dependencies>
         <dependency>

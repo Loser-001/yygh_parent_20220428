@@ -11,5 +11,11 @@
 
     <artifactId>service_user</artifactId>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>com.atguigu.yygh</groupId>
+            <artifactId>service_cmn_client</artifactId>
+            <version>1.0</version>
+        </dependency>
+    </dependencies>
 </project>
